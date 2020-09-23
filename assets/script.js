@@ -5,7 +5,7 @@ $(document).ready(function() {
     // Shows current date
     var dateFormat = moment().format('MMMM Do')
     var dayFormat = moment().format('dddd')
-    $("#CurrentDate").text(dayFormat + ", " + dateFormat)
+    $("#currentDay").text(dayFormat + ", " + dateFormat)
 
     past();
     current();
@@ -136,7 +136,7 @@ function past(){
 // set color to green if timeslot is future
 function future(){
     if(moment().isBefore(moment('08:59:59', timeFormat))){
-        $("#9amtextarea").removeClass().addClass("future")
+        $("#9amtextarea").addClass("future")
     }
     if(moment().isBefore(moment('09:59:59', timeFormat))){
         $("#10amtextarea").addClass("future")
