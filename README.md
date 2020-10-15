@@ -12,5 +12,6 @@ This application is designed to help the user plan a busy work day.  When the ap
 - Moment.js
 - Jquery
 
-
+## Screenshot
+![workday](https://user-images.githubusercontent.com/68656660/96190146-bb865080-0f0f-11eb-9c53-a17af9be2af9.png)
 
